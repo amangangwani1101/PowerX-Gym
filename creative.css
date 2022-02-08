@@ -1,0 +1,9 @@
+.add_display{
+    display: grid;
+}
+.remove_display{
+    display: none;
+}
+.btn{
+    border-radius: 4px;
+}
