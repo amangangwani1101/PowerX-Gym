@@ -1,0 +1,138 @@
+/* about us section */
+:root{
+    --aboutUs-Color-1:rgba(255, 217, 0, 0.925);
+    --aboutUs-Color-2:rgba(255, 102, 0, 0.877);
+    --aboutUs-Color-3:rgba(113, 0, 128, 0.884);
+    --common-color-light:rgba(0, 0, 0, 0.726);
+    --common-color-dark:rgba(245, 236, 236, 0.726);
+    --aboutUs-Color-4:rgba(126, 128, 0, 0.884);
+    --aboutUs-Color-5:rgb(227, 115, 241);
+    --aboutUs-Color-6:rgba(128, 94, 0, 0.884);
+    --aboutUs-Color-7:rgba(128, 0, 0, 0.884);
+    --aboutUs-Color-8:rgba(0, 128, 75, 0.884);
+}
+/* body{
+    background-color: black;
+} */
+.gym_aboutUs_heading{
+    text-align: center;
+    color: var(--aboutUs-Color-1);
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-shadow: -2px 4px 5px var(--common-color-light);
+}
+.gym_aboutUs_heading_line{
+    text-align: center;
+    font-size: 33px;
+    color: var(--aboutUs-Color-2);
+    font-weight: 400;
+    margin: 0.3rem 0 1.2rem;
+    text-decoration:underline;
+    text-transform: capitalize;    
+    transition: all .1s ease-in;
+    animation: color .3s ease-in infinite alternate;
+}
+@keyframes color {
+    0%{
+        color: var(--aboutUs-Color-2);
+    }
+    20%{
+        color: var(--aboutUs-Color-3);
+    }
+    
+}
+.gym_aboutUs_description{
+    width: 65vw;
+    height: 21%;
+    margin: 2rem auto;
+    box-sizing: border-box;
+    font-size: 26px;
+    font-weight: 600;
+    max-width: 2000px;
+    color: var(--aboutUs-Color-3);
+    /* overflow: hidden; */
+    /* background: var(--dark-background-color); */
+    /* box-shadow: 2px 14px 32px #000000ab; */
+}
+.box_aboutUs_description{
+    width: 100%;
+    height: 100%;
+}   
+
+.aboutUs_more{
+    display: flex;
+    width: 65%;
+    height: 10vh;
+    margin: 2rem auto;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+    font-size: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.more{
+    width: 200px;
+    height: 120px;
+    border-radius:10px ;
+    box-shadow: 2px 7px 12px #000000ab;
+    text-align: center;
+}
+.more img{
+    width: 200px;
+    height: 120px;
+}
+.more h4{
+    padding: 30px 0;
+    display: none;
+    /* background: black;  */
+    color: white;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+}
+.more p{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 8vh;
+}
+@media screen and (max-width:1370px) {
+    .gym_aboutUs_description{
+        width: 100%;
+        color: var(--aboutUs-Color-6);
+        font-size: 24px;
+    }
+    .aboutUs_more{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:763px) {
+    
+}
+
+@media screen and (max-width:590px) {
+    .gym_aboutUs_description{
+        display: none;
+    }
+    .aboutUs_more{
+        flex-direction: column;
+        align-items: center;
+        height: 66vh;
+    }
+    .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 324px;
+        height: 183px;
+    }
+    .more img{
+        width: 324px;
+        height: 183px;
+    }
+
+}

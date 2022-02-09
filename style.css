@@ -166,7 +166,7 @@ body
 /* about us css */
 .gym_links_container{
     width: 90vw;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 .gym_aboutUs_section{
 
@@ -183,8 +183,8 @@ body
 
 /* Hide the images by default */
 .mySlides {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 2.4rem auto .5rem;
     height: 410px;
     display: none;
 }
