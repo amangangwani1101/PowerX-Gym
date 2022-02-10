@@ -60,7 +60,7 @@
 }   
 
 .aboutUs_more{
-    display: flex;
+    display: none;
     width: 65%;
     height: 10vh;
     margin: 2rem auto;
@@ -74,29 +74,35 @@
     width: 200px;
     height: 120px;
     border-radius:10px ;
+    position: relative;
     box-shadow: 2px 7px 12px #000000ab;
     text-align: center;
 }
 .more img{
     width: 200px;
+    box-sizing: border-box;
     height: 120px;
 }
 .more h4{
     padding: 30px 0;
-    display: none;
+    /* display: none; */
     /* background: black;  */
     color: white;
     display: block;
     position: absolute;
     top: 0;
-    left: 50%;
+    /* left: 50%; */
+    left: 26%;
     /* transform: translate(-50%,-50%); */
 }
 .more p{
     color: white;
     position: absolute;
-    left: 50%;
+    left:26%; 
     top: 8vh;
+}
+.more h4,.more p{
+    font-size: 25px;
 }
 @media screen and (max-width:1370px) {
     .gym_aboutUs_description{
@@ -108,7 +114,10 @@
         width: 90vw;
     }
 }
-
+.end_aboutUs{
+    height: 1px;
+    background-color: black;
+}
 @media screen and (max-width:763px) {
     
 }
@@ -118,6 +127,7 @@
         display: none;
     }
     .aboutUs_more{
+        display: flex;
         flex-direction: column;
         align-items: center;
         height: 66vh;
