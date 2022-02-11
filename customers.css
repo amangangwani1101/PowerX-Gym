@@ -1,0 +1,97 @@
+.client_response{
+    width: 85vw;
+    margin: 0 auto;
+}
+.gym_response_section_logo{
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.gym_response_section_logo h1{
+    margin: 0 0 10px;
+    font-size: 39px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.gym_response_section_logo p{
+    font-size: 20px;
+}
+.gym_response_section{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.gym_response_section_1{
+    flex-basis: 32%;
+    display: grid;
+    place-items: center;
+    transform: scale(1);
+    /* box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.61); */
+    /* background-color: brown; */
+    transition: all .6s ease-in;
+}
+.gym_response_section_1:hover{
+    /* color: wheat; */
+    transform: scale(1.1);
+    box-shadow: 1px 9px 38px rgb(0 0 0 / 61%);
+
+}
+.gym_response_section img{
+    width: 150px;
+    margin: 5px 0 0;
+    height: 140px;
+}
+.gym_response_section_1 p{
+    width: 90%;
+    margin: 12px auto;
+    font-size: 18px;
+    text-align: center;
+}
+.response_desc{
+    margin: 8px 0;  
+}
+.response_desc h3{
+    font-weight: 700;
+    font-size: 18px;
+}
+.response_desc h4{
+    font-weight: 300;
+    /* background-color: aliceblue; */
+    text-align: center;
+    font-size: 13.5px;
+    margin: 4px auto;
+}
+@media screen and (max-width:918px) {
+    .gym_response_section{
+        justify-content: space-between;
+        align-items: center;
+        height: 123vh;
+        flex-direction: column;
+        width: 50vw;
+        box-sizing: border-box;
+        /* overflow: hidden; */
+        margin: 5px auto;
+    }
+    .gym_response_section_1{
+        flex-basis: 32%;
+    display: grid;
+    place-items: center;
+    transform: scale(1);
+    margin: 1.6rem 0;
+    /* background-color: brown; */
+    transition: all .6s ease-in;
+    box-shadow: 1px 6px 19px rgb(0 0 0 / 61%);
+    }
+}
+@media screen and (max-width:587px) {
+    .gym_response_section_logo{
+        width: 85%;
+        margin: 30px auto;
+    }
+}
