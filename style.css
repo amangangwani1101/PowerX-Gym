@@ -45,6 +45,7 @@ body
 }
 .gym_link a{
     text-transform: capitalize;
+    transition: all 3s ease-in;
     text-decoration: none;
     color:var(--light-color);
     font-size: 1.4rem;
@@ -61,7 +62,7 @@ body
 .nav_toggle_icon
 {
     position: fixed;
-    right: 15%;
+    right: 5%;
     top: 8%;
     font-size: 31px;
     color: blue;
@@ -278,5 +279,17 @@ body
   from {opacity: .4}
   to {opacity: 1}
 }
-
 /* ----------- */
+
+/* scroll top */
+.scroll_top{
+    position: fixed;
+    bottom:6%;
+    right: 3%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 10px;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.61);
+    background-color: black;
+    color: white;
+}

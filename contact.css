@@ -1,0 +1,118 @@
+.gym_contactUs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 62vw;
+    max-width: 442px;
+    height: 53vh;
+    background-color: black;
+    /* background-color: white; */
+    opacity: .85;
+    z-index: 40;
+    display: none;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 25px;
+    transform-origin:left;
+    /* padding: 20px; */
+    transform: translate(-50%,-50%);
+}
+.gym_contactUs h2{
+    margin:18px 0 12px;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.gym_form
+{
+    /* background-color: aqua; */
+    width: 70%;
+    height: 60%;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+.gym_form input{
+    transition: all 4s ease-in-out;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    /* margin: 10px 0; */
+    /* border: none; */
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px white;
+    text-transform: capitalize;
+}
+.submit_confirm{
+    margin:4px 0 0;
+    display: block;
+    color: green;
+    font-size: 17px;
+}
+.btn{
+    margin: 12px 0;
+    padding: 7px 23px;
+    font-size: 1.2rem;
+    /* text-transform: uppercase; */
+    color: white;
+    background: transparent;
+    /* border: 0; */
+    transition: all .8s ease;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px white;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 10px white;
+}
+@media screen and (max-width:720px) {
+    .gym_contactUs{
+        max-width:470px;
+        width: 90vw;
+    }
+    ::placeholder{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:988px)
+{
+    .gym_contactUs{
+        background-color: #ffffff78;
+    }
+    .gym_contactUs h2{
+        color: black;
+    }
+    .gym_form input{
+        background-color: white;
+        color: black;
+        box-shadow: 0px 0px 10px black;
+    }
+    .btn{
+        color: black;        
+        box-shadow: 0px 0px 10px black;
+    }
+    .submit_confirm{
+        color: blue;
+    }
+    .btn{
+        color: red;
+        font-weight: 700
+    }
+}
+.close-bt{
+    position: fixed;
+    top: 4%;
+    right: 7%;
+    font-size: 33px;
+    color: red;
+}

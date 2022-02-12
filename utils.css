@@ -4,6 +4,9 @@
 .remove_display{
     display: none;
 }
+.display_section{
+    display: block;
+}
 .btn{
     border-radius: 4px;
 }

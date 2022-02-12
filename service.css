@@ -90,5 +90,10 @@
         width: 61vw;
         height: 150vh;
     }
+    .flip-card-front img,.flip-card-back{
+        width: 84%;
+        height: 308px;
+        border-radius: 20px;
+    }
     
 }

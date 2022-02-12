@@ -24,3 +24,23 @@ btn.addEventListener('click',()=>{
 closeBtn.addEventListener('click',()=>{
   navBar.classList.toggle('add_display');
 });
+// contact us 
+const contactBtn=document.querySelector(".link-5");
+const openContact=document.querySelector(".gym_contactUs");
+contactBtn.addEventListener('click',()=>{
+  if(openContact.style.display==="none")
+    openContact.style.display="block";
+  else
+    openContact.style.display="none";
+});
+// contact button close functionality
+const btnn=document.querySelector(".close-bt");
+btnn.addEventListener('click',()=>{
+    openContact.style.display="none";
+});
+// form submission
+const textAfterSubmission=document.querySelector(".submit_confirm");
+function formSubmitter(){
+  textAfterSubmission.innerHTML="*Your Form Has Been Submitted Succssfully!";
+  console.log(textAfterSubmission);
+}
