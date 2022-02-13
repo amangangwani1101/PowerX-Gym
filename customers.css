@@ -1,6 +1,6 @@
 .client_response{
     width: 85vw;
-    margin: 0 auto;
+    margin: 13px auto 2rem;
 }
 .gym_response_section_logo{
     width: 500px;
@@ -71,7 +71,7 @@
     .gym_response_section{
         justify-content: space-between;
         align-items: center;
-        height: 123vh;
+        height: 151vh;
         flex-direction: column;
         width: 50vw;
         box-sizing: border-box;
@@ -93,5 +93,23 @@
     .gym_response_section_logo{
         width: 85%;
         margin: 30px auto;
+    }
+    /* .gym_response_section{
+        height: 157vh;
+        width: 90vw;
+        box-sizing: border-box;
+    } */
+    .gym_response_section{
+        width: 70vw;
+    }
+}
+@media screen and (max-width:677px) {
+     .gym_response_section_1 img{
+        height: 113px;
+        width: 120px;
+    }
+    
+    .gym_response_section_1 p{
+        font-size: 15px;
     }
 }

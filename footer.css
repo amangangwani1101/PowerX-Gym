@@ -42,6 +42,7 @@
     text-transform: capitalize;
     margin: 5px 0 10px;
     color: white;
+    font-size: 1.6rem;
     padding: 0 0 10px;
 }
 .gym_footer_section h1 span{
@@ -75,4 +76,13 @@
         color: goldenrod;
     }    
 
+}
+@media screen and (max-width:478px){
+    .link_source li{
+        margin: 10px 0.3rem;
+        font-size: 1rem;
+    }
+    .gym_footer_section h1{
+        font-size: 1.2rem;
+    }
 }

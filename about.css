@@ -126,6 +126,9 @@
     .gym_aboutUs_description{
         display: none;
     }
+    .gym_aboutUs_heading_line{
+        font-size: 25px;
+    }
     .aboutUs_more{
         display: flex;
         flex-direction: column;
@@ -138,6 +141,7 @@
         justify-content: center;
         align-items: center;
         width: 324px;
+        display: none;
         height: 183px;
     }
     .more img{
@@ -145,4 +149,7 @@
         height: 183px;
     }
 
+}
+.scroll_top{
+    z-index: 2;
 }

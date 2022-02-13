@@ -97,3 +97,8 @@
     }
     
 }
+@media screen and (max-width:539px) {
+    .gym_services{
+        width: 86vw;
+    }
+}

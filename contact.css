@@ -116,3 +116,10 @@
     font-size: 33px;
     color: red;
 }
+@media screen and (max-width:406px) {
+    .gym_contactUs h2{
+        text-align: left;
+        font-size: 26px;
+        margin-left:10px;
+    }
+}
