@@ -84,7 +84,7 @@
         font-size: 0.8rem;
     }
 }
-@media screen and (max-width:988px)
+@media screen and (max-width:634px)
 {
     .gym_contactUs{
         background-color: #ffffff78;
@@ -121,5 +121,22 @@
         text-align: left;
         font-size: 26px;
         margin-left:10px;
+    }
+}
+@media screen and (max-width:406px) {
+    .gym_contactUs h2{
+        font-size: 20px;
+    }
+    .gym_form{
+        width: 95%;
+    }
+    .submit_confirm{
+        font-size:15px;
+    }
+    .btn{
+        margin: 0;
+    }
+    .gym_form input{
+        font-size: 14px;
     }
 }

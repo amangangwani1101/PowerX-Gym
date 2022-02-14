@@ -14,12 +14,15 @@
     text-align: center;
 }
 .gym_service_logo h1{
+    color: goldenrod;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.534);
     font-size: 2.7rem;
     text-transform: capitalize;
     margin: 12px 0 6px;
 }
 .gym_service_logo p{
     font-size: 1.5rem;
+    color:rgba(165, 42, 42, 0.877);
     text-transform: capitalize;
 }
 .flip-card {

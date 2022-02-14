@@ -10,6 +10,8 @@
     box-sizing: border-box;
 }
 .gym_response_section_logo h1{
+    color: goldenrod;
+    text-decoration: underline;
     margin: 0 0 10px;
     font-size: 39px;
     letter-spacing: 1px;
@@ -40,7 +42,7 @@
     /* color: wheat; */
     transform: scale(1.1);
     box-shadow: 1px 9px 38px rgb(0 0 0 / 61%);
-
+    color: red;
 }
 .gym_response_section img{
     width: 150px;
@@ -111,5 +113,16 @@
     
     .gym_response_section_1 p{
         font-size: 15px;
+    }
+}
+@media screen and (max-width:578px) {
+    .gym_response_section_logo{
+        width: 99%;
+    }
+    .gym_response_section_logo h1{
+        font-size: 35px;
+    }
+    .gym_response_section_logo p{
+        font-size: 17px;
     }
 }
