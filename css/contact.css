@@ -5,9 +5,10 @@
     width: 62vw;
     max-width: 442px;
     height: 53vh;
+    max-height: 364px;
     background-color: black;
     /* background-color: white; */
-    opacity: .85;
+    opacity: .95;
     z-index: 40;
     display: none;
     text-align: center;
@@ -87,7 +88,7 @@
 @media screen and (max-width:634px)
 {
     .gym_contactUs{
-        background-color: #ffffff78;
+        background-color: #fca800;
     }
     .gym_contactUs h2{
         color: black;
@@ -116,7 +117,7 @@
     font-size: 33px;
     color: red;
 }
-@media screen and (max-width:406px) {
+@media screen and (max-width:429px) {
     .gym_contactUs h2{
         text-align: left;
         font-size: 26px;
@@ -133,10 +134,14 @@
     .submit_confirm{
         font-size:15px;
     }
-    .btn{
-        margin: 0;
-    }
+
     .gym_form input{
         font-size: 14px;
+    }
+}
+@media screen and (max-width:280px) {
+    .btn{
+        margin: 6px 0;
+        padding: 5px 23px;
     }
 }

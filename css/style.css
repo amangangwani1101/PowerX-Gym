@@ -16,9 +16,10 @@ body
 }
 .gym_nav_bar{
     display: flex;
-    /* background-color: var(--light-background-color); */
     background-color: transparent;
+    background-color: var(--light-background-color);
     width: 100vw;
+    opacity: .87;
     height: 90px;
     justify-content: space-between;
     /* padding: 0 15px; */
@@ -81,10 +82,10 @@ body
 .nav_toggle_icon
 {
     position: fixed;
-    right: 5%;
+    right: 9%;
     top: 8%;
-    font-size: 31px;
-    color: blue;
+    font-size: 35px;
+    color: #ffb300;
     z-index: 12;
     display: none;
 }
@@ -103,6 +104,7 @@ body
         display: none;
         grid-template-rows: auto 1fr auto;
         place-items: center;
+        opacity:1;
         width: 330px;
         background-color: var(--light-background-color);
         height: 100vh;
@@ -125,7 +127,7 @@ body
         letter-spacing: 1.3px;
     }
     .nav_other_contact_mediums{
-        margin-bottom:2rem ;
+        margin-bottom:3rem ;
     }
     .nav_toggle_icon,.close-btn{
         display: block;
@@ -199,6 +201,7 @@ body
     width: 72vw;
     max-width: 642px;
     height: 26vh;
+    max-height: 21vh;
     display: grid;
     place-items: center;
     color: white;
@@ -229,7 +232,7 @@ body
     /* color: black; */
     font-size: 1.04rem;
 }
-@media screen and (max-width:490px) {
+@media screen and (max-width:599px) {
     .gym_home_desc{
         width: 91vw;
     }
